@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  padding: 30px 0 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header h1 {
+  font-size: 20px;
+}
+
+.header ul {
+  text-align: right;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header ul li {
+  display: inline-block;
+}
+
+.header ul li a {
+  color: black;
+  padding: 0 10px;
+}
+
+/* Jumbotron */
+
+.jumbotron h2 {
+  font-size: 50px;
+  padding: 0 40px;
+}
+
+.jumbotron span {
+  color: #ffc200;
+}
+
+
+/* Banner */
+
+.banner {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main */
+
+#expertise {
+  background-color: #ffc200;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.main {
+  background-color: #ffc200;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.main .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  margin: 10px auto;
+  height: auto;
+  width: auto;
+}
